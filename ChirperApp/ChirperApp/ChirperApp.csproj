@@ -73,14 +73,14 @@
     <Content Include="img\apple-touch-icon-144-precomposed.png" />
     <Content Include="img\apple-touch-icon-57-precomposed.png" />
     <Content Include="img\apple-touch-icon-72-precomposed.png" />
+    <Content Include="img\chirper_logo_orange.jpg" />
     <Content Include="img\favicon.png" />
+    <Content Include="img\GGGLogo.png" />
     <Content Include="img\glyphicons-halflings-white.png" />
     <Content Include="img\glyphicons-halflings.png" />
-    <Content Include="img\main-logo copy.png" />
-    <Content Include="img\main-logov2.png" />
-    <Content Include="img\ProfileChat.jpg" />
-    <Content Include="img\sidebar-logo %281%29.png" />
-    <Content Include="img\sidebar-logo.png" />
+    <Content Include="img\sidebar-logo-chirp.png" />
+    <Content Include="img\sidebar-logo2.png" />
+    <Content Include="img\yoda.png" />
     <Content Include="index.html" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\html5shiv.js" />
@@ -91,6 +91,7 @@
     <Content Include="js\moment.js" />
     <Content Include="js\moment.min.js" />
     <Content Include="js\scripts.js" />
+    <Content Include="testScript.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -294,11 +294,11 @@ function onKeyPress(e) {
         e = window.event;
     }
     if (e.keyCode == 13) {
-        createChirp();
+        createTweet();
     }
 }
 
-createChirp = function () {
+createTweet = function () {
     var chirpValue = $('#chirp-input').val();
     var handle = profile.handle;
     var newChirp = new Chirp(chirpValue, handle);

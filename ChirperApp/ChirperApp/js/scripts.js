@@ -394,3 +394,8 @@ displayChirps = function () {
         $("#chirp-display").append("<p><h6>" + tempTime + "</h6><a href='#'><i class='glyphicon glyphicon-trash pull-right' onclick='deleteChirp(" + i + ")'></i></a></p></br><hr>")
     }
 }
+
+
+//////////////////////////////////////////////
+//           TEST CODE AREA                //
+/////////////////////////////////////////////

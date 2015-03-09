@@ -69,6 +69,10 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\styles.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="img\01.jpg" />
+    <Content Include="img\02.jpg" />
+    <Content Include="img\03.jpg" />
+    <Content Include="img\04.jpg" />
     <Content Include="img\apple-touch-icon-114-precomposed.png" />
     <Content Include="img\apple-touch-icon-144-precomposed.png" />
     <Content Include="img\apple-touch-icon-57-precomposed.png" />
@@ -91,7 +95,9 @@
     <Content Include="js\moment.js" />
     <Content Include="js\moment.min.js" />
     <Content Include="js\scripts.js" />
+    <Content Include="temp.html" />
     <Content Include="testScript.js" />
+    <Content Include="twitter.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

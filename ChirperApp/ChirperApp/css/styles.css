@@ -1,8 +1,58 @@
 /* custom template */
+
+.logoChirp{
+        margin-bottom: 10px;
+}
+
+.profileStuff {
+    background-color:#f9fafb;
+    color:#555555;
+    position: relative;
+    border-radius: 3px 4px;
+    width: 280px;
+}
+
+.FriendStuff {
+
+    background-color:#f9fafb;
+    font-family:verdana,arial,sans-serif;
+    font-size: 14px;
+    color:#555555;
+    position: relative;
+    border-radius: 3px 4px;
+    width: 280px;
+    margin-top: 20px;
+
+}
+
+.containerChirp {
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url();
+    background-image: url('../img/04.jpg');
+}
+.containerChirp-Profile{
+
+    width:25%;
+    float:left;
+}
+.containerChirp-Chirps{
+
+    width:75%;
+    height:100%;
+    float:left;
+}
+
 html, body {
    height: 100%;
    font-family:verdana,arial,sans-serif;
    color:#555555;
+}
+
+#jumbotron.vertical-center {
+  margin-bottom: 0; /* Remove the default bottom margin of .jumbotron */
 }
 
 .main-logo {
@@ -209,7 +259,7 @@ h1,h2,h3 {
 }
 
 .btn-primary,.label-primary,.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus  {
-	background-color:#d32e01;
+    background-color:#134e05;
     color:#fffffe;
 }
 .btn-default {
@@ -255,7 +305,7 @@ h1,h2,h3 {
   position: relative;
 }
 
-.btn-my-chirps {
+.btn-send-chirps {
     position: absolute;
     top: 14px;
     padding-right: 10px;
@@ -273,7 +323,7 @@ h1,h2,h3 {
     }
 
     .btn:hover {
-        background-color: #cc4824;
+        background-color:#938888;
         -moz-transition: .7s background-color ease-in-out;
         -o-transition: .7s background-color ease-in-out;
         -webkit-transition: .7s background-color ease-in-out;
@@ -348,7 +398,7 @@ small.text-muted {
   }
 
   .row-offcanvas-left.active .sidebar-offcanvas {
-    left: -33%;
+    left: -50%;
     position: absolute;
     top: 0;
     width: 33%;

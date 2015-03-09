@@ -84,6 +84,8 @@
     <Content Include="img\glyphicons-halflings.png" />
     <Content Include="img\sidebar-logo-chirp.png" />
     <Content Include="img\sidebar-logo2.png" />
+    <Content Include="img\sidebar-users-chirp.png" />
+    <Content Include="img\user-edit-area.png" />
     <Content Include="img\yoda.png" />
     <Content Include="index.html" />
     <Content Include="js\bootstrap.min.js" />

@@ -8,10 +8,10 @@ var chirps = [];
 var profile = [];
 
 // Urls for database connection.
-var chirpTypeFriendUrl = "https://greengiantgraphics.firebaseio.com/friends/.json";
-var chirpTypeFriendCus = "https://greengiantgraphics.firebaseio.com/friends/";
-var chirpTypeTweetsUrl = "https://greengiantgraphics.firebaseio.com/tweets/.json";
-var chirpTypeTweetsCus = "https://greengiantgraphics.firebaseio.com/tweets/";
+var chirpTypeFriendUrl = "https://chirpermessage.firebaseio.com/friends/.json";
+var chirpTypeFriendCus = "https://chirpermessage.firebaseio.com/friends/";
+var chirpTypeTweetsUrl = "https://chirpermessage.firebaseio.com/tweets/.json";
+var chirpTypeTweetsCus = "https://chirpermessage.firebaseio.com/tweets/";
 var chirpTypeProfileUrl = "https://greengiantgraphics.firebaseio.com/profile/.json";
 var chirpTypeProfileCus = "https://greengiantgraphics.firebaseio.com/profile/";
 var xhr = new XMLHttpRequest();

@@ -1,7 +1,55 @@
 /* custom template */
 
+@media screen and (max-width:600px){
+    .logoChirp,
+    .profileStuff,
+    .FriendStuff,
+    .containerChirp,
+    .containerChirp-Profile,
+    .containerChirp-Chirps{clear:both;width:100%;margin-left:0;margin-right:0;margin-bottom:1em}.banner-box{padding:5px 0}.banner-scroll{margin-top:10px;margin-bottom:20px}}@media only screen and (min-device-width : 320px) and (max-device-width : 480px){.one_pro1,.port_font,a:hover,a:active,a{clear:both;width:100%;margin-left:0;margin-right:0;margin-bottom:1em;white-space:nowrap}.banner-box{padding:5px 0}.banner-scroll{margin-top:10px;margin-bottom:20px}.banner-box{padding:#0005px 0}.banner-scroll{margin-top:10px;margin-bottom:20px}}
+
 .logoChirp{
         margin-bottom: 10px;
+        align-items: center;
+}
+.avatarChirp{
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+._containerChirp {
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('../img/04.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+.containerChirp-Profile{
+     margin-left: 4%;
+     float:left;
+    background-color:#f9fafb;
+}
+
+.containerChirp-Friend{
+   margin-left: 0%;
+   margin-top: 10%;
+}
+
+.containerChirp-Message{
+     margin-left: 1%;
+     float:left;
+     width:70%;
+    background-color:#f9fafb;
+  }
+
+.containerChirp-Chirps{
+     margin-left: 0%;
+     float:left;
+     width:70%;
 }
 
 .profileStuff {
@@ -30,8 +78,9 @@
     padding-left: 10%;
     margin-right: auto;
     margin-left: auto;
-    background-image: url();
     background-image: url('../img/04.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 .containerChirp-Profile{
 
@@ -387,6 +436,14 @@ small.text-muted {
  */
 @media screen and (max-width: 768px) {
   .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  @media screen and (max-width: 500px) {
+  .row-offcanvas .containerChirp-Profile {
     position: relative;
     -webkit-transition: all 0.25s ease-out;
     -moz-transition: all 0.25s ease-out;

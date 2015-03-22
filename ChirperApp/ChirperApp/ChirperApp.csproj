@@ -98,6 +98,7 @@
     <Content Include="js\moment.min.js" />
     <Content Include="js\scripts.js" />
     <Content Include="temp.html" />
+    <Content Include="test.html" />
     <Content Include="testScript.js" />
     <Content Include="twitter.html" />
     <Content Include="Web.config" />
